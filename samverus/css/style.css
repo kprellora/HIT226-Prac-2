@@ -1,0 +1,46 @@
+body {
+  background-color: #776D70;
+}
+
+h1, h2, p, label, footer {
+  font-family:Arial;
+  padding-left : .2em;
+  background-color: #EFF3EF;
+}
+h1 {
+border-style: solid;
+margin:.3em;
+}
+section {
+  background-color: #EFF3EF;
+  border-style: solid;
+  margin: .6em;
+  padding-bottom: : 4em;
+}
+
+footer {
+  background-color: #EFF3EF;
+  border-style: solid;
+  font-size: .8em;
+  margin:.7em;
+}
+label {
+  padding-left : .5em;
+  display:inline-block;
+  width:20em;
+}
+
+.input {
+   margin: .5em;
+   padding-left : .5em;
+}
+
+.button  {
+  display: inline-block;
+  padding: .5em;
+}
+
+/* Highlights activer input box */
+input:focus {
+  background-color: #B39F8F;
+}

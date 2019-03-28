@@ -38,10 +38,6 @@ input:focus, textarea:focus{
   border: 1px solid rgba(81, 203, 238, 1);
 }
 
-input[type="radio"]
-{
-  margin: 0 4px 8px 0;
-}
 
 select
 {
@@ -52,7 +48,7 @@ select
 
 fieldset
 {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: none;
 }
 

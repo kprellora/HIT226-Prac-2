@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>HIT262 - Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <form method="post">
+      <h1>Sign Up</h1>
+      <fieldset>
+        <label>Name</label>
+        <input type="text" name="Name" value="">
+
+        <label>Address</label>
+        <input type="text" name="Address" value="">
+
+        <label>Email</label>
+        <input type="email" name="Email" value="">
+
+        <label >Telephone Number</label>
+        <input type="text" name="telephone number" value="">
+
+        <label>Birtdate</label>
+        <input type="date" name="birthdate" value="">
+
+        <label>Students Background:</label>
+        <input type="radio" name="background" value="International Student">
+        <label class="light">International Student</label>
+
+        <input type="radio" name="background" value="Local Student">
+        <label class="light">Local Student </label>
+
+        <label>What do you study?</label>
+        <select name="education">
+          <option value="None">--None--</option>
+          <option value="BIT">Bachelor of Information Technology</option>
+          <option value="BIS">Bachelor of Information System</option>
+          <option value="BCS">Bachelor of Computer Science</option>
+          <option value="BSE">Bachelor of Software Engineering</option>
+          <option value="BIT/NMD">Bachelor of Information technology/New Media Design</option>
+        </select>
+      </fieldset>
+      <button type="submit">Sign Up</button>
+
+    </form>
+  </body>
+
+</html>

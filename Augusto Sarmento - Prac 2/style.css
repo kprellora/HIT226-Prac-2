@@ -17,7 +17,8 @@ input[type="text"],
 input[type="email"],
 input[type="date"],
 textarea,
-select{
+select
+{
   background: rgba(255, 0, 0, 0.1);
   border: none;
   font-size: 16px;
@@ -37,23 +38,22 @@ input:focus, textarea:focus{
   border: 1px solid rgba(81, 203, 238, 1);
 }
 
-input[type="radio"]
-{
-  margin: 0 4px 8px 0;
-}
 
-select{
+select
+{
   padding: 6px;
   height: 32px;
   border-radius: 2px;
 }
 
-fieldset{
-  margin-bottom: 30px;
+fieldset
+{
+  margin-bottom: 20px;
   border: none;
 }
 
-button{
+button
+{
   padding: 19px 39px 18px 39px;
   color: #fff;
   background-color: #a3c2c2;
@@ -68,7 +68,8 @@ button{
   margin-bottom: 10px;
 }
 
-@media screen {
+@media screen
+{
   form{
     max-width: 400px;
   }
